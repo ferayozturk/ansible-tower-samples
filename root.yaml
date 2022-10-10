@@ -1,0 +1,5 @@
+- name: go to root dir
+  hosts: all
+  tasks:
+    - name: Cd root
+      shell: cd /root
